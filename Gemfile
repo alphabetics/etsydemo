@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby "2.0.0"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.1'
+gem 'rails', '4.0.0'
 # Use sqlite3 as the database for Active Record
 
 # Use SCSS for stylesheets
@@ -40,6 +40,8 @@ gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass', '~> 3.0.3.0'
 
 gem 'paperclip', '~> 3.0'
+
+
 
 group :production do
   gem 'pg'
