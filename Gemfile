@@ -42,14 +42,14 @@ gem 'bootstrap-sass', '~> 3.0.3.0'
 gem 'paperclip', '~> 3.0'
 
 group :production do
-	gem 'pg'
-	gem 'rails_12factor'
+  gem 'pg'
+  gem 'rails_12factor'
 end
 
 group :development, :test do
-	gem 'sqlite3'
+  gem 'sqlite3'
 end
 
 group :doc do
-	gem 'sdoc', require: false	
+  gem 'sdoc', require: false
 end
