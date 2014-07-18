@@ -14,6 +14,6 @@ module DeviseHelper
 			</div>
 			HTML
 
-			html.html.sfae
+			html.html_safe
 			end
 		end
